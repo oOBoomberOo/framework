@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Framework v0.0.1",
+		"description": "",
+		"icon": {
+			"item": "minecraft:scaffolding"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	
+	}
+}

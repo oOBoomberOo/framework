@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080000, ucit: {id: \"torch_decorator\", from: \"boomber:framework\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

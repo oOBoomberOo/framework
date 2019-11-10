@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"candle": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:structure_void",
+					"nbt": "{ucit: {id: \"candle\", from: \"boomber:framework\"}}"
+				}
+			}
+		}
+	},
+	"parent": "boomber:framework/event/root",
+	"rewards": {
+		"function": "boomber:framework/event/place/candle"
+	}
+}
