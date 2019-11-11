@@ -1,8 +1,10 @@
+#> If it's empty set it to dye_slot item
 execute unless data block ~ ~ ~ Items[{Slot: 0b}].Count run loot replace block ~ ~ ~ container.0 loot boomber:framework/trait/furniture_table/ui/red_dye_slot
 execute unless data block ~ ~ ~ Items[{Slot: 9b}].Count run loot replace block ~ ~ ~ container.9 loot boomber:framework/trait/furniture_table/ui/green_dye_slot
 execute unless data block ~ ~ ~ Items[{Slot: 18b}].Count run loot replace block ~ ~ ~ container.18 loot boomber:framework/trait/furniture_table/ui/blue_dye_slot
 execute unless data block ~ ~ ~ Items[{Slot: 17b}].Count run loot replace block ~ ~ ~ container.17 loot boomber:framework/trait/furniture_table/ui/clay_slot
 
+#> If it's not dye_slot nor dye_item append it to drop_items array and set itself back to dye_slot
 execute unless data block ~ ~ ~ Items[{Slot: 0b}].tag{ucit: {id: "red_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 0b, id: "minecraft:red_dye"}]} run data modify storage boomber:framework/furniture_table drop_items append from block ~ ~ ~ Items[{Slot: 0b}]
 execute unless data block ~ ~ ~ Items[{Slot: 0b}].tag{ucit: {id: "red_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 0b, id: "minecraft:red_dye"}]} run loot replace block ~ ~ ~ container.0 loot boomber:framework/trait/furniture_table/ui/red_dye_slot
 execute unless data block ~ ~ ~ Items[{Slot: 9b}].tag{ucit: {id: "green_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 9b, id: "minecraft:green_dye"}]} run data modify storage boomber:framework/furniture_table drop_items append from block ~ ~ ~ Items[{Slot: 9b}]
@@ -12,6 +14,7 @@ execute unless data block ~ ~ ~ Items[{Slot: 18b}].tag{ucit: {id: "blue_dye_slot
 execute unless data block ~ ~ ~ Items[{Slot: 17b}].tag{ucit: {id: "clay_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 17b, id: "minecraft:clay_ball"}]} run data modify storage boomber:framework/furniture_table drop_items append from block ~ ~ ~ Items[{Slot: 17b}]
 execute unless data block ~ ~ ~ Items[{Slot: 17b}].tag{ucit: {id: "clay_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 17b, id: "minecraft:clay_ball"}]} run loot replace block ~ ~ ~ container.17 loot boomber:framework/trait/furniture_table/ui/clay_slot
 
+#> If it's dye_slot but its count is not 1 set it back to 1b
 execute if data block ~ ~ ~ Items[{Slot: 0b}].tag{ucit: {id: "red_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 0b, Count: 1b}]} run data modify block ~ ~ ~ Items[{Slot: 0b}].Count set value 1b
 execute if data block ~ ~ ~ Items[{Slot: 9b}].tag{ucit: {id: "green_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 9b, Count: 1b}]} run data modify block ~ ~ ~ Items[{Slot: 9b}].Count set value 1b
 execute if data block ~ ~ ~ Items[{Slot: 18b}].tag{ucit: {id: "blue_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 18b, Count: 1b}]} run data modify block ~ ~ ~ Items[{Slot: 18b}].Count set value 1b

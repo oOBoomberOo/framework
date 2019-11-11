@@ -4,9 +4,8 @@ execute unless data block ~ ~ ~ Items[{Slot: 9b}].Count run scoreboard players a
 execute unless data block ~ ~ ~ Items[{Slot: 17b}].Count run scoreboard players add #bb.fw.should_draw bb.success 1
 execute unless data block ~ ~ ~ Items[{Slot: 18b}].Count run scoreboard players add #bb.fw.should_draw bb.success 1
 
-#> If slot is ui/slot and slot.Count != 1
+#> If slot is ui/slot and its count is not 1
 execute if data block ~ ~ ~ Items[{Slot: 0b}].tag{ucit: {id: "red_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 0b, Count: 1b}]} run scoreboard players add #bb.fw.should_draw bb.success 1
 execute if data block ~ ~ ~ Items[{Slot: 9b}].tag{ucit: {id: "green_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 9b, Count: 1b}]} run scoreboard players add #bb.fw.should_draw bb.success 1
 execute if data block ~ ~ ~ Items[{Slot: 18b}].tag{ucit: {id: "blue_dye_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 18b, Count: 1b}]} run scoreboard players add #bb.fw.should_draw bb.success 1
-
 execute if data block ~ ~ ~ Items[{Slot: 17b}].tag{ucit: {id: "clay_slot", from: "boomber:framework"}} unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 17b, Count: 1b}]} run scoreboard players add #bb.fw.should_draw bb.success 1

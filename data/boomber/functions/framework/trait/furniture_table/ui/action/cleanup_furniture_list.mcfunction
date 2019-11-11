@@ -1,3 +1,5 @@
+#> ? Maybe include /execute if here?
+
 data modify storage boomber:framework/furniture_table equality_test set value {}
 data modify storage boomber:framework/furniture_table equality_test set from storage boomber:framework/furniture_table previous_list[{Slot: 2b}]
 execute store result score #bb.fw.equality_test bb.success run data modify storage boomber:framework/furniture_table equality_test set from block ~ ~ ~ Items[{Slot: 2b}]

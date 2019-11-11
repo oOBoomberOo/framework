@@ -1,3 +1,4 @@
+#> Remove all objectives added from this datapack
 scoreboard objectives remove bb.variable
 scoreboard objectives remove bb.calculation
 scoreboard objectives remove bb.success

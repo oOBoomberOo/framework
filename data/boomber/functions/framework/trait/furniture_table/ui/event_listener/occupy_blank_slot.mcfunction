@@ -1,3 +1,4 @@
+#> Check if there are items inside blank slot that isn't the blank slot itself
 execute if data block ~ ~ ~ Items[{Slot: 1b}].Count unless data block ~ ~ ~ Items[{Slot: 1b}].tag{ucit: {id: "blank", from: "boomber:framework"}} run scoreboard players add #bb.fw.should_draw bb.success 1
 execute if data block ~ ~ ~ Items[{Slot: 10b}].Count unless data block ~ ~ ~ Items[{Slot: 10b}].tag{ucit: {id: "blank", from: "boomber:framework"}} run scoreboard players add #bb.fw.should_draw bb.success 1
 execute if data block ~ ~ ~ Items[{Slot: 19b}].Count unless data block ~ ~ ~ Items[{Slot: 19b}].tag{ucit: {id: "blank", from: "boomber:framework"}} run scoreboard players add #bb.fw.should_draw bb.success 1

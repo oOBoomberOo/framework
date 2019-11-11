@@ -1,3 +1,4 @@
+#> Preventing hopper from stealing items
 execute positioned ~ ~-1 ~ if block ~ ~ ~ minecraft:hopper[enabled=true] run function boomber:framework/trait/furniture_table/function/hopper
 execute positioned ~ ~-1 ~ if block ~ ~ ~ minecraft:hopper run data merge block ~ ~ ~ {TransferCooldown: 20}
 
