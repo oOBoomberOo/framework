@@ -3,4 +3,4 @@ execute if block ~ ~ ~ #boomber:framework/torch_decorator/wall[facing=south] run
 execute if block ~ ~ ~ #boomber:framework/torch_decorator/wall[facing=west] run data modify entity @s Pose.Head[1] set value 270f
 execute if block ~ ~ ~ #boomber:framework/torch_decorator/wall[facing=north] run data modify entity @s Pose.Head[1] set value 0f
 
-scoreboard players add #bb.fw.model bb.variable 1
+scoreboard players add #bb.fw.model bb.calculation 1

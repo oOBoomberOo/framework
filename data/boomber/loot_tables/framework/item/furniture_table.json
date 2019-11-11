@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: \"furniture_table\", from: \"boomber:framework\"}}"
+							"tag": "{ucit: {id: \"furniture_table\", from: \"boomber:framework\", group: [\"item_frame_block\"]}}"
 						},
 						{
 							"function": "minecraft:set_nbt",

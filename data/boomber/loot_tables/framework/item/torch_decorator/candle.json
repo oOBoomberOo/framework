@@ -14,11 +14,11 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: \"candle\", from: \"boomber:framework\"}}"
+							"tag": "{ucit: {id: \"candle\", from: \"boomber:framework\", group: [\"item_frame_block\"]}}"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080000, EntityTag: {Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}, Tags: ['boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block', 'boomber.framework.block.candle']}}"
+							"tag": "{CustomModelData: 8080000, EntityTag: {Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}, Tags: ['boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block', 'boomber.framework.block.torch_decorator.candle']}}"
 						}
 					]
 				}

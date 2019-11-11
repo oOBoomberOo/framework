@@ -1,0 +1,1 @@
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #boomber:framework/doormat/non_solid run function boomber:framework/trait/doormat/remove

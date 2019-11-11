@@ -9,13 +9,6 @@
 					"name": "minecraft:item_frame",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "boomber.framework.block.candle",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								[
@@ -65,28 +58,19 @@
 										"color": "white",
 										"italic": false
 									}
-								],
-								[
-									{
-										"translate": "boomber.framework.ui.furniture_table.cost.clay",
-										"color": "gray",
-										"italic": false
-									},
-									{
-										"text": ": ",
-										"color": "gray"
-									},
-									{
-										"text": "1",
-										"color": "white",
-										"italic": false
-									}
 								]
 							]
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080000, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/item/torch_decorator/candle', red: 1, green: 1, blue: 1, clay: 1}}}"
+							"tag": "{CustomModelData: 8080002, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/white_wool', red: 1, green: 1, blue: 1, clay: 0}}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.block.white_wool_doormat",
+								"italic": false
+							}
 						}
 					]
 				}

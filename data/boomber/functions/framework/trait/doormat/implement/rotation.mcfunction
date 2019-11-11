@@ -1,0 +1,2 @@
+execute if score #bb.fw.facing bb.variable matches 0..1 run function boomber:framework/trait/doormat/implement/vertical_rotation
+execute if score #bb.fw.facing bb.variable matches 2..5 run function boomber:framework/trait/doormat/implement/horizontal_rotation

@@ -6,15 +6,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:chest",
+					"name": "minecraft:item_frame",
 					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "boomber.framework.block.test",
-								"italic": false
-							}
-						},
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
@@ -29,7 +22,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "10",
+										"text": "1",
 										"color": "white",
 										"italic": false
 									}
@@ -45,7 +38,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "10",
+										"text": "1",
 										"color": "white",
 										"italic": false
 									}
@@ -61,7 +54,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "10",
+										"text": "1",
 										"color": "white",
 										"italic": false
 									}
@@ -77,7 +70,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "10",
+										"text": "1",
 										"color": "white",
 										"italic": false
 									}
@@ -86,7 +79,18 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/item/test', red: 10, green: 10, blue: 10, clay: 10}}}"
+							"tag": "{CustomModelData: 8080000, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/torch_decorator/candle', red: 1, green: 1, blue: 1, clay: 1}}}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 2
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.block.candle",
+								"italic": false
+							}
 						}
 					]
 				}

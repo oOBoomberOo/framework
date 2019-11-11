@@ -1,0 +1,3 @@
+#> Check if there already is a torch decorator installed
+execute if entity @e[tag=boomber.framework.trait.torch_decorator, distance=..0.3] run function boomber:framework/trait/item_frame_block/block/torch_decorator.candle/fail
+execute unless entity @e[tag=boomber.framework.trait.torch_decorator, distance=..0.3] run function boomber:framework/trait/item_frame_block/block/torch_decorator.candle/success
