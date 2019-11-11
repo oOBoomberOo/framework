@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:item_frame",
+					"name": "minecraft:chest",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -20,11 +20,15 @@
 							"lore": [
 								[
 									{
-										"text": "Red: ",
+										"translate": "boomber.framework.ui.furniture_table.cost.red",
 										"color": "red",
 										"italic": false
 									},
 									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
 										"text": "10",
 										"color": "white",
 										"italic": false
@@ -32,21 +36,13 @@
 								],
 								[
 									{
-										"text": "Green: ",
+										"translate": "boomber.framework.ui.furniture_table.cost.green",
 										"color": "green",
 										"italic": false
 									},
 									{
-										"text": "10",
-										"color": "white",
-										"italic": false
-									}
-								],
-								[
-									{
-										"text": "Blue: ",
-										"color": "blue",
-										"italic": false
+										"text": ": ",
+										"color": "gray"
 									},
 									{
 										"text": "10",
@@ -56,9 +52,29 @@
 								],
 								[
 									{
-										"text": "Clay: ",
+										"translate": "boomber.framework.ui.furniture_table.cost.blue",
 										"color": "blue",
 										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "10",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.clay",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
 									},
 									{
 										"text": "10",
@@ -70,7 +86,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080001, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/item/test', red: 10, green: 10, blue: 10, clay: 10}}}"
+							"tag": "{ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/item/test', red: 10, green: 10, blue: 10, clay: 10}}}"
 						}
 					]
 				}

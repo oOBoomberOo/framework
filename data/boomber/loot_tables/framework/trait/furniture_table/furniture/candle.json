@@ -20,11 +20,15 @@
 							"lore": [
 								[
 									{
-										"text": "Red: ",
+										"translate": "boomber.framework.ui.furniture_table.cost.red",
 										"color": "red",
 										"italic": false
 									},
 									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
 										"text": "1",
 										"color": "white",
 										"italic": false
@@ -32,21 +36,13 @@
 								],
 								[
 									{
-										"text": "Green: ",
+										"translate": "boomber.framework.ui.furniture_table.cost.green",
 										"color": "green",
 										"italic": false
 									},
 									{
-										"text": "1",
-										"color": "white",
-										"italic": false
-									}
-								],
-								[
-									{
-										"text": "Blue: ",
-										"color": "blue",
-										"italic": false
+										"text": ": ",
+										"color": "gray"
 									},
 									{
 										"text": "1",
@@ -56,9 +52,29 @@
 								],
 								[
 									{
-										"text": "Clay: ",
+										"translate": "boomber.framework.ui.furniture_table.cost.blue",
 										"color": "blue",
 										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "1",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.clay",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
 									},
 									{
 										"text": "1",

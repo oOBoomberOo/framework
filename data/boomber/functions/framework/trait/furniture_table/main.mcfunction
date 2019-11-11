@@ -1,3 +1,5 @@
+execute positioned ~ ~-1 ~ if block ~ ~ ~ minecraft:hopper[enabled=true] run function boomber:framework/trait/furniture_table/function/hopper
+
 function boomber:framework/trait/furniture_table/maintain
 function boomber:framework/trait/furniture_table/ui/main
 
