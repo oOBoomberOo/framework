@@ -1,0 +1,1 @@
+scoreboard players add @s bb.fw.page 1

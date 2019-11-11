@@ -1,0 +1,1 @@
+scoreboard players remove @s bb.fw.page 1

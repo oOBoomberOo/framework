@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: \"blank_slot\", from: \"boomber:framework\", group: [\"furniture_table/ui\"]}}"
+							"tag": "{ucit: {id: \"blank\", from: \"boomber:framework\", group: [\"furniture_table/ui\"]}}"
 						}
 					]
 				}

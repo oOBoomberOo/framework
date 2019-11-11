@@ -1,0 +1,1 @@
+summon minecraft:husk ~ ~ ~ {NoAI: 1b, NoGravity: 1b, Invulnerable: 1b, Tags: ['global.ignore', 'global.ignore.pos', 'global.ignore.gui', 'boomber.framework.trait.entity', 'boomber.framework.template'], DeathLootTable: ''}

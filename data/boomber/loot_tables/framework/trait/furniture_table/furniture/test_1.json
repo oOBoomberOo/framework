@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080001, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/item/torch_decorator/test', red: 1, green: 1, blue: 3}}}"
+							"tag": "{CustomModelData: 8080001, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/item/furniture_table', red: 1, green: 1, blue: 3}}}"
 						}
 					]
 				}
