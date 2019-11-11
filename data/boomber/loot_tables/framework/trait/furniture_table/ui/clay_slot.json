@@ -6,15 +6,15 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:red_stained_glass_pane",
+					"name": "minecraft:black_stained_glass_pane",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate": "boomber.framework.ui.furniture_table.red_dye_slot", "color": "red", "italic": false}
+							"name": {"translate": "boomber.framework.ui.furniture_table.clay_slot", "color": "gray", "italic": false}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: \"red_dye_slot\", from: \"boomber:framework\", group: [\"furniture_table/ui\"]}}"
+							"tag": "{ucit: {id: \"clay_slot\", from: \"boomber:framework\", group: [\"furniture_table/ui\"]}}"
 						}
 					]
 				}

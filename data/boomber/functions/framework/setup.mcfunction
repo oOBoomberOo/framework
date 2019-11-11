@@ -10,6 +10,7 @@ scoreboard objectives add bb.fw.page dummy
 scoreboard objectives add bb.fw.red_dye dummy
 scoreboard objectives add bb.fw.green_dye dummy
 scoreboard objectives add bb.fw.blue_dye dummy
+scoreboard objectives add bb.fw.clay dummy
 
 scoreboard players set #27 bb.variable 27
 

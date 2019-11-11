@@ -8,3 +8,4 @@ scoreboard objectives remove bb.fw.page
 scoreboard objectives remove bb.fw.red_dye
 scoreboard objectives remove bb.fw.green_dye
 scoreboard objectives remove bb.fw.blue_dye
+scoreboard objectives remove bb.fw.clay

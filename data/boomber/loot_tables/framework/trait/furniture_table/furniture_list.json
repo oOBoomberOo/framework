@@ -23,34 +23,42 @@
 								"bb.fw.blue_dye": {
 									"min": 1,
 									"max": 1000
-								}
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_1",
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"bb.fw.red_dye": {
+								},
+								"bb.fw.clay": {
 									"min": 1,
 									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
 								},
 								"bb.fw.green_dye": {
-									"min": 1,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 3,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -64,14 +72,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -79,7 +87,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -93,14 +105,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -108,7 +120,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -122,14 +138,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -137,7 +153,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -151,14 +171,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -166,7 +186,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -180,14 +204,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -195,7 +219,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -209,14 +237,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -224,7 +252,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -238,14 +270,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -253,7 +285,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -267,14 +303,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -282,7 +318,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -296,14 +336,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -311,7 +351,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -325,14 +369,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -340,7 +384,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -354,14 +402,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -369,7 +417,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -383,14 +435,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -398,7 +450,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -412,14 +468,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -427,7 +483,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -441,14 +501,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -456,7 +516,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -470,14 +534,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -485,7 +549,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -499,14 +567,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -514,7 +582,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -528,14 +600,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -543,7 +615,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -557,14 +633,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -572,7 +648,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -586,14 +666,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -601,7 +681,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -615,14 +699,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -630,7 +714,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -644,14 +732,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -659,7 +747,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -673,14 +765,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -688,7 +780,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -702,14 +798,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -717,7 +813,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -731,14 +831,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -746,7 +846,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -760,14 +864,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -775,7 +879,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -789,14 +897,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -804,7 +912,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -818,14 +930,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -833,7 +945,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -847,14 +963,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -862,7 +978,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -876,14 +996,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -891,7 +1011,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -905,14 +1029,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -920,7 +1044,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -934,14 +1062,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -949,7 +1077,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}
@@ -963,14 +1095,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/test_2",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 10,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -978,7 +1110,3080 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 5,
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/test",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 10,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 10,
 									"max": 1000
 								}
 							}

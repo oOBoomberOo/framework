@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"text": "Blue Dye", "color": "blue", "italic": false}
+							"name": {"translate": "boomber.framework.ui.furniture_table.blue_dye_slot", "color": "blue", "italic": false}
 						},
 						{
 							"function": "minecraft:set_nbt",
