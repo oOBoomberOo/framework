@@ -19,3 +19,5 @@ execute if data block ~ ~ ~ Items[{Slot: 24b}].Count run data modify storage boo
 execute if data block ~ ~ ~ Items[{Slot: 25b}].Count run data modify storage boomber:framework/furniture_table equality_test append from block ~ ~ ~ Items[{Slot: 25b}]
 execute store result score #bb.fw.equality_test bb.success run data modify storage boomber:framework/furniture_table equality_test set from storage boomber:framework/furniture_table previous_list
 scoreboard players operation #bb.fw.should_draw bb.success += #bb.fw.equality_test bb.success
+
+execute if score #bb.fw.equality_test bb.success matches 1.. run function boomber:framework/trait/furniture_table/ui/action/furniture_change

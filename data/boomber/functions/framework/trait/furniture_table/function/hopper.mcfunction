@@ -7,4 +7,3 @@ execute if block ~ ~ ~ minecraft:hopper[facing=south] run setblock ~ ~ ~ minecra
 execute if block ~ ~ ~ minecraft:hopper[facing=north] run setblock ~ ~ ~ minecraft:hopper[facing=north, enabled=false]
 
 data modify block ~ ~ ~ Items set from storage boomber:framework/furniture_table hopper_content
-data modify block ~ ~ ~ TransferCooldown set value 20
