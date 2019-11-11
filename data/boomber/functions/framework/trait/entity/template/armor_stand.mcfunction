@@ -1,2 +1,2 @@
 #> Template entity for custom block
-summon minecraft:armor_stand ~ ~ ~ {Small: 1b, NoGravity: 1b, Invisible: 1b, Marker: 1b, NoBasePlate: 1b, Tags: ['boomber.framework.trait.entity', 'boomber.framework.template'], Pose: {Head: [0.0f, 90.0f, 0.0f]}}
+summon minecraft:armor_stand ~ ~ ~ {Small: 1b, NoGravity: 1b, Invisible: 1b, Marker: 1b, NoBasePlate: 1b, Tags: ['boomber.framework.trait.entity', 'boomber.framework.template', 'global.ignore', 'global.ignore.pos'], Pose: {Head: [0.0f, 90.0f, 0.0f]}}

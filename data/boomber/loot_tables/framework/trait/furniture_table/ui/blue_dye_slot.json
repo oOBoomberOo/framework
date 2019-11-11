@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blue_stained_glass_pane",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Blue Dye", "color": "blue", "italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {id: \"blue_dye_slot\", from: \"boomber:framework\", group: [\"furniture_table/ui\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

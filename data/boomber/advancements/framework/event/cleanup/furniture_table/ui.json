@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"ui": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "boomber:framework/furniture_table/ui_slot",
+						"nbt": "{ucit: {group: ['furniture_table/ui']}}"
+					}
+				]
+			}
+		}
+	},
+	"parent": "boomber:framework/event/root",
+	"rewards": {
+		"function": "boomber:framework/event/cleanup/furniture_table/ui"
+	}
+}

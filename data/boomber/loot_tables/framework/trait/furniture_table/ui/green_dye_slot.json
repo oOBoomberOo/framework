@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lime_stained_glass_pane",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Green Dye", "color": "green", "italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {id: \"green_dye_slot\", from: \"boomber:framework\", group: [\"furniture_table/ui\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
