@@ -68,7 +68,7 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "boomber.framework.block.white_wool_doormat",
+								"translate": "boomber.framework.block.doormat.white_wool",
 								"italic": false
 							}
 						}

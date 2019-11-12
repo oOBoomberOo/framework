@@ -10,11 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate": "boomber.framework.block.candle", "italic": false}
+							"name": {"translate": "boomber.framework.block.torch_decorator.candle", "italic": false}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: \"candle\", from: \"boomber:framework\", group: [\"item_frame_block\"]}}"
+							"tag": "{ucit: {id: \"torch_decorator.candle\", from: \"boomber:framework\", group: [\"item_frame_block\"]}}"
 						},
 						{
 							"function": "minecraft:set_nbt",

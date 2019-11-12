@@ -21,3 +21,5 @@ function boomber:framework/config
 
 scoreboard players operation #bb.fw.page_size bb.config = #bb.fw.row bb.config
 scoreboard players operation #bb.fw.page_size bb.config *= #bb.fw.col bb.config
+
+schedule function boomber:framework/fixed_update 5t replace

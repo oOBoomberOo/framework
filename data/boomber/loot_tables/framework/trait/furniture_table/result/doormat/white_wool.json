@@ -6,7 +6,8 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/item/doormat/white_wool"
+					"name": "boomber:framework/item/doormat/white_wool",
+					"functions": []
 				}
 			]
 		}

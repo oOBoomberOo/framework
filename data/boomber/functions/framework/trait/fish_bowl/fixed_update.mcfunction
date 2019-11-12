@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ minecraft:stone_button run function boomber:framework/trait/fish_bowl/remove

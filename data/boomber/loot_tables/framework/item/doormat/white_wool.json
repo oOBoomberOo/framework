@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate": "boomber.framework.block.white_wool_doormat", "italic": false}
+							"name": {"translate": "boomber.framework.block.doormat.white_wool", "italic": false}
 						},
 						{
 							"function": "minecraft:set_nbt",

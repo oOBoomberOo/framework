@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:white_stained_glass",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080000, ucit: {id: \"fish_bowl\", from: \"boomber:framework\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

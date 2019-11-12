@@ -1,4 +1,4 @@
-tag @s add boomber.framework.block.doormat.white_wool
+tag @s add boomber.framework.block.doormat.creeper
 
 function boomber:framework/trait/block/implement
 function boomber:framework/trait/doormat/implement
