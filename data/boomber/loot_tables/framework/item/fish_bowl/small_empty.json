@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080004, EntityTag: {Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}, Tags: ['boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block', 'boomber.framework.block.fish_bowl.small_empty']}}"
+							"tag": "{CustomModelData: 8080001, EntityTag: {Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}, Tags: ['boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block', 'boomber.framework.block.fish_bowl.small_empty']}}"
 						}
 					]
 				}

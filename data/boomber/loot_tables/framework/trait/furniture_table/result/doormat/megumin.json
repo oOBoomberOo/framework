@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/item/doormat/megumin",
+					"functions": []
+				}
+			]
+		}
+	]
+}

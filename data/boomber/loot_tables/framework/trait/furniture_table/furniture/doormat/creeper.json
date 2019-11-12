@@ -31,7 +31,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080003, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/creeper', red: 0, green: 3, blue: 0, clay: 0}}}"
+							"tag": "{CustomModelData: 8080004, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/creeper', red: 0, green: 3, blue: 0, clay: 0}}}"
 						},
 						{
 							"function": "minecraft:set_name",
