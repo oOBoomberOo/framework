@@ -22,7 +22,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "5",
+										"text": "0",
 										"color": "white",
 										"italic": false
 									}
@@ -38,7 +38,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "3",
+										"text": "0",
 										"color": "white",
 										"italic": false
 									}
@@ -54,7 +54,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "4",
+										"text": "0",
 										"color": "white",
 										"italic": false
 									}
@@ -70,7 +70,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "3",
+										"text": "1",
 										"color": "white",
 										"italic": false
 									}
@@ -79,7 +79,11 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080001, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/fish_bowl/small_empty', red: 5, green: 3, blue: 4, clay: 3}}}"
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/fish_bowl/small_empty', red: 0, green: 0, blue: 0, clay: 1}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080000}"
 						},
 						{
 							"function": "minecraft:set_name",

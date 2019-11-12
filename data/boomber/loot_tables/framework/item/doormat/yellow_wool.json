@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.block.doormat.yellow_wool",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {id: \"doormat.yellow_wool\", from: \"boomber:framework\", group: [\"item_frame_block\"]}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080006}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{EntityTag: {Tags: ['boomber.framework.block.doormat.yellow_wool', 'boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block'], Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

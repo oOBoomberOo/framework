@@ -10,7 +10,10 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate": "boomber.framework.block.doormat.creeper", "italic": false}
+							"name": {
+								"translate": "boomber.framework.block.doormat.creeper",
+								"italic": false
+							}
 						},
 						{
 							"function": "minecraft:set_nbt",
@@ -18,7 +21,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080004}"
+							"tag": "{CustomModelData: 8080018}"
 						},
 						{
 							"function": "minecraft:set_nbt",

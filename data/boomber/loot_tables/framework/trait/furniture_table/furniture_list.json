@@ -6,39 +6,6 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/vanilla/flower_pot",
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"bb.fw.red_dye": {
-									"min": 0,
-									"max": 1000
-								},
-								"bb.fw.green_dye": {
-									"min": 0,
-									"max": 1000
-								},
-								"bb.fw.blue_dye": {
-									"min": 0,
-									"max": 1000
-								},
-								"bb.fw.clay": {
-									"min": 1,
-									"max": 1000
-								}
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
 					"name": "boomber:framework/trait/furniture_table/furniture/torch_decorator/candle",
 					"conditions": [
 						{
@@ -72,7 +39,568 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/fish_bowl/small_empty",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 1,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/vanilla/flower_pot",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 1,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
 					"name": "boomber:framework/trait/furniture_table/furniture/doormat/white_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/orange_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 2,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/magenta_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/light_blue_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/yellow_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/lime_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/pink_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/gray_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/light_gray_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/cyan_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 2,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/purple_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 2,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/blue_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/brown_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/green_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/red_wool",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bb.fw.red_dye": {
+									"min": 1,
+									"max": 1000
+								},
+								"bb.fw.green_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.blue_dye": {
+									"min": 0,
+									"max": 1000
+								},
+								"bb.fw.clay": {
+									"min": 0,
+									"max": 1000
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat/black_wool",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -145,7 +673,7 @@
 							"entity": "this",
 							"scores": {
 								"bb.fw.red_dye": {
-									"min": 5,
+									"min": 3,
 									"max": 1000
 								},
 								"bb.fw.green_dye": {
@@ -153,44 +681,11 @@
 									"max": 1000
 								},
 								"bb.fw.blue_dye": {
-									"min": 1,
+									"min": 0,
 									"max": 1000
 								},
 								"bb.fw.clay": {
 									"min": 0,
-									"max": 1000
-								}
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/fish_bowl/small_empty",
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"bb.fw.red_dye": {
-									"min": 5,
-									"max": 1000
-								},
-								"bb.fw.green_dye": {
-									"min": 3,
-									"max": 1000
-								},
-								"bb.fw.blue_dye": {
-									"min": 4,
-									"max": 1000
-								},
-								"bb.fw.clay": {
-									"min": 3,
 									"max": 1000
 								}
 							}

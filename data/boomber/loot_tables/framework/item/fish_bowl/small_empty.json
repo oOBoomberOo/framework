@@ -10,7 +10,10 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate": "boomber.framework.block.fish_bowl.small_empty", "italic": false}
+							"name": {
+								"translate": "boomber.framework.block.fish_bowl.small_empty",
+								"italic": false
+							}
 						},
 						{
 							"function": "minecraft:set_nbt",
@@ -18,7 +21,11 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080001, EntityTag: {Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}, Tags: ['boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block', 'boomber.framework.block.fish_bowl.small_empty']}}"
+							"tag": "{CustomModelData: 8080000}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{EntityTag: {Tags: ['boomber.framework.block.fish_bowl.small_empty', 'boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block'], Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}}}"
 						}
 					]
 				}

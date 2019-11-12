@@ -13,6 +13,54 @@
 							"lore": [
 								[
 									{
+										"translate": "boomber.framework.ui.furniture_table.cost.red",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "0",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.green",
+										"color": "green",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "0",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.blue",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "0",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
 										"translate": "boomber.framework.ui.furniture_table.cost.clay",
 										"color": "gray",
 										"italic": false
@@ -31,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/vanilla/flower_pot', red: 0, green: 0, blue: 0, clay: 1}}}"
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/vanilla/flower_pot', red: 0, green: 0, blue: 0, clay: 1}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
 						}
 					]
 				}

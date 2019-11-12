@@ -58,12 +58,32 @@
 										"color": "white",
 										"italic": false
 									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.clay",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "0",
+										"color": "white",
+										"italic": false
+									}
 								]
 							]
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080003, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/white_wool', red: 1, green: 1, blue: 1, clay: 0}}}"
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/white_wool', red: 1, green: 1, blue: 1, clay: 0}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080002}"
 						},
 						{
 							"function": "minecraft:set_name",

@@ -10,13 +10,10 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate": "boomber.framework.block.doormat.megumin", "italic": false}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{"translate": "boomber.framework.block.doormat.megumin.description", "italic": true, "color": "gray"}
-							]
+							"name": {
+								"translate": "boomber.framework.block.doormat.megumin",
+								"italic": false
+							}
 						},
 						{
 							"function": "minecraft:set_nbt",
@@ -24,11 +21,20 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080005}"
+							"tag": "{CustomModelData: 8080019}"
 						},
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{EntityTag: {Tags: ['boomber.framework.block.doormat.megumin', 'boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block'], Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "boomber.framework.block.doormat.megumin.description",
+									"color": "gray"
+								}
+							]
 						}
 					]
 				}

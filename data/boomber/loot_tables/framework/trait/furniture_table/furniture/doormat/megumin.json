@@ -11,6 +11,10 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								{
+									"translate": "boomber.framework.block.doormat.megumin.description",
+									"color": "gray"
+								},
 								[
 									{
 										"translate": "boomber.framework.ui.furniture_table.cost.red",
@@ -22,7 +26,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "5",
+										"text": "3",
 										"color": "white",
 										"italic": false
 									}
@@ -54,7 +58,23 @@
 										"color": "gray"
 									},
 									{
-										"text": "1",
+										"text": "0",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.clay",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "0",
 										"color": "white",
 										"italic": false
 									}
@@ -63,7 +83,11 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080005, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/megumin', red: 5, green: 1, blue: 1, clay: 0}}}"
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/megumin', red: 3, green: 1, blue: 0, clay: 0}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080019}"
 						},
 						{
 							"function": "minecraft:set_name",

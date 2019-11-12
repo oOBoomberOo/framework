@@ -13,6 +13,22 @@
 							"lore": [
 								[
 									{
+										"translate": "boomber.framework.ui.furniture_table.cost.red",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "0",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
 										"translate": "boomber.framework.ui.furniture_table.cost.green",
 										"color": "green",
 										"italic": false
@@ -26,12 +42,48 @@
 										"color": "white",
 										"italic": false
 									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.blue",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "0",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.clay",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "0",
+										"color": "white",
+										"italic": false
+									}
 								]
 							]
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080004, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/creeper', red: 0, green: 3, blue: 0, clay: 0}}}"
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/creeper', red: 0, green: 3, blue: 0, clay: 0}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080018}"
 						},
 						{
 							"function": "minecraft:set_name",

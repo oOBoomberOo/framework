@@ -79,11 +79,11 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080002, ucit: {id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui'], framework: {item: 'boomber:framework/trait/furniture_table/result/torch_decorator/candle', red: 1, green: 1, blue: 1, clay: 1}}}"
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/torch_decorator/candle', red: 1, green: 1, blue: 1, clay: 1}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
 						},
 						{
-							"function": "minecraft:set_count",
-							"count": 2
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080001}"
 						},
 						{
 							"function": "minecraft:set_name",
