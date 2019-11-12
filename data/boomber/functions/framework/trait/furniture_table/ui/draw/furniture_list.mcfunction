@@ -13,8 +13,6 @@ loot spawn ~ 255 ~ loot boomber:framework/trait/furniture_table/furniture_list
 #> Select every items that dropped from command above all at once and map it into usable data
 execute as @e[type=minecraft:item, nbt={Item: {tag: {ucit: {id: "furniture_selection", from: "boomber:framework"}}}}] run function boomber:framework/trait/furniture_table/ui/get/furniture_selection
 
-# data modify storage boomber:framework/furniture_table current_furniture_list set from storage boomber:framework/furniture_table furniture_list[0]
-
 #> Get current page, what else do you expect?
 function boomber:framework/trait/furniture_table/ui/get/current_page
 

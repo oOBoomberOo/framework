@@ -9,6 +9,10 @@
 					"name": "minecraft:item_frame",
 					"functions": [
 						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								[

@@ -9,6 +9,10 @@
 					"name": "minecraft:flower_pot",
 					"functions": [
 						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								[

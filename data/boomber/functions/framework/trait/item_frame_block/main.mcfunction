@@ -19,3 +19,5 @@ execute if entity @s[tag=boomber.framework.block.doormat.red_wool] run function 
 execute if entity @s[tag=boomber.framework.block.doormat.black_wool] run function boomber:framework/trait/item_frame_block/block/doormat/black_wool/run
 execute if entity @s[tag=boomber.framework.block.doormat.creeper] run function boomber:framework/trait/item_frame_block/block/doormat/creeper/run
 execute if entity @s[tag=boomber.framework.block.doormat.megumin] run function boomber:framework/trait/item_frame_block/block/doormat/megumin/run
+execute if entity @s[tag=boomber.framework.block.doormat.chicken] run function boomber:framework/trait/item_frame_block/block/doormat/chicken/run
+execute if entity @s[tag=boomber.framework.block.doormat.tnt] run function boomber:framework/trait/item_frame_block/block/doormat/tnt/run

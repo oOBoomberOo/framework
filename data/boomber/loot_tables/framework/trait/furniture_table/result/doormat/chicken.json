@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/item/doormat/blue_wool",
+					"name": "boomber:framework/item/doormat/chicken",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

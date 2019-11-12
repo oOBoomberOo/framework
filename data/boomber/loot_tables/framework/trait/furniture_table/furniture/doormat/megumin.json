@@ -9,6 +9,10 @@
 					"name": "minecraft:item_frame",
 					"functions": [
 						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
@@ -74,7 +78,7 @@
 										"color": "gray"
 									},
 									{
-										"text": "0",
+										"text": "1",
 										"color": "white",
 										"italic": false
 									}
@@ -83,7 +87,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/megumin', red: 3, green: 1, blue: 0, clay: 0}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/megumin', red: 3, green: 1, blue: 0, clay: 1}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
 						},
 						{
 							"function": "minecraft:set_nbt",
