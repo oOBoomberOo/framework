@@ -1,0 +1,248 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": {
+							"min": -2147483648,
+							"max": 1
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": 2
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": 3
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": 4
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": 5
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 6
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": 6
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 7
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": 7
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": 8
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 9
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.range": 9
+					}
+				}
+			]
+		}
+	]
+}

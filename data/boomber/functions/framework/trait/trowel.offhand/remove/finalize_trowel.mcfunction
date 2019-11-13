@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:item, tag=boomber.framework.trowel.offhand.drop_item] run data modify entity @s Item.tag.ucit.framework.inventory set from storage boomber:framework/trowel.offhand save_inventory
+execute as @e[type=minecraft:item, tag=boomber.framework.trowel.offhand.drop_item] run data modify entity @s Item.tag.ucit.framework.player_inventory set value []
+tag @e[type=minecraft:item] remove boomber.framework.trowel.offhand.drop_item

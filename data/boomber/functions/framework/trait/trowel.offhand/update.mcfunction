@@ -1,0 +1,2 @@
+#> Detect when player is no longer holding the trowel
+execute unless data entity @s Inventory[{Slot: -106b}].tag.ucit{id: "trowel", from: "boomber:framework"} run function boomber:framework/trait/trowel.offhand/remove

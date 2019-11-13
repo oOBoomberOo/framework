@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #boomber:framework/trowel/water run data modify entity @s BlockState.Properties.waterlogged set value "true"
+execute unless block ~ ~ ~ #boomber:framework/trowel/water run data modify entity @s BlockState.Properties.waterlogged set value "false"

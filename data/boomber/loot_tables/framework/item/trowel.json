@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate": "boomber.framework.item.trowel", "italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{"translate": "boomber.framework.item.trowel.description", "italic": false, "color": "gray"},
+								[{"translate": "boomber.framework.item.durability", "italic": false, "color": "aqua"}, {"text": ": 250 / 250"}],
+								{"text": ""}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {framework: {inventory: []}, durability: 250, max_durability: 250, id: \"trowel\", from: \"boomber:framework\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
