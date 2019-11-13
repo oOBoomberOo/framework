@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.red",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "2",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.green",
+										"color": "green",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "2",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.blue",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "2",
+										"color": "white",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.clay",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "2",
+										"color": "white",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/gravestone/plate', red: 2, green: 2, blue: 2, clay: 2}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080023}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.block.gravestone.plate",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

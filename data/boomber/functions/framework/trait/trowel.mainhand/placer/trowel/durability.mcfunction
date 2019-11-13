@@ -15,6 +15,8 @@ scoreboard players operation #bb.fw.actual_durability bb.calculation /= #100 bb.
 scoreboard players operation #bb.fw.damage bb.calculation = #bb.fw.carrot_stick.durability bb.config
 scoreboard players operation #bb.fw.damage bb.calculation -= #bb.fw.actual_durability bb.calculation
 
+execute if score #bb.fw.current_durability bb.calculation matches ..-1 at @s run function boomber:framework/trait/trowel.mainhand/placer/trowel/break
+
 setblock ~ ~ ~ minecraft:oak_sign{Text1: '[{"translate": "boomber.framework.item.durability", "italic": false, "color": "aqua"}, {"text": ": "}, {"score": {"name": "#bb.fw.current_durability", "objective": "bb.calculation"}}, {"text": " / "}, {"score": {"name": "#bb.fw.max_durability", "objective": "bb.calculation"}}]'}
 execute store result storage boomber:framework/trowel.mainhand return_item.tag.ucit.durability int 1 run scoreboard players get #bb.fw.current_durability bb.calculation
 execute store result storage boomber:framework/trowel.mainhand return_item.tag.Damage int 1 run scoreboard players get #bb.fw.damage bb.calculation

@@ -8,12 +8,6 @@ execute store result score #bb.fw.equality_test bb.success run data modify stora
 #> If it's item then kill this falling_block and drop that item
 execute if score #bb.fw.equality_test bb.success matches 1.. run function boomber:framework/trait/trowel.mainhand/placer/drop_item
 
-#> We can do this because falling_block will remove any block states that can't be use on the block automatically
-# We don't have to detect which block could `facing` be use on
-function boomber:framework/trait/trowel.mainhand/placer/falling_block/apply_facing
-function boomber:framework/trait/trowel.mainhand/placer/falling_block/apply_axis
-function boomber:framework/trait/trowel.mainhand/placer/falling_block/apply_half
-function boomber:framework/trait/trowel.mainhand/placer/falling_block/apply_waterlogged
-function boomber:framework/trait/trowel.mainhand/placer/falling_block/apply_block_entity_tag
+function boomber:framework/trait/trowel.mainhand/placer/falling_block/apply
 
 tag @s remove boomber.framework.trowel.mainhand.falling_sand

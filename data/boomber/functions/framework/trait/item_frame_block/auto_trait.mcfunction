@@ -21,3 +21,6 @@ execute if entity @s[tag=boomber.framework.block.doormat.creeper] run function b
 execute if entity @s[tag=boomber.framework.block.doormat.megumin] run function boomber:framework/trait/item_frame_block/block/doormat/megumin/run
 execute if entity @s[tag=boomber.framework.block.doormat.chicken] run function boomber:framework/trait/item_frame_block/block/doormat/chicken/run
 execute if entity @s[tag=boomber.framework.block.doormat.tnt] run function boomber:framework/trait/item_frame_block/block/doormat/tnt/run
+execute if entity @s[tag=boomber.framework.block.gravestone.plate] run function boomber:framework/trait/item_frame_block/block/gravestone/plate/run
+execute if entity @s[tag=boomber.framework.block.gravestone.cross] run function boomber:framework/trait/item_frame_block/block/gravestone/cross/run
+execute if entity @s[tag=boomber.framework.block.gravestone.celtic] run function boomber:framework/trait/item_frame_block/block/gravestone/celtic/run

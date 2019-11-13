@@ -5,4 +5,4 @@ execute as @s[tag=boomber.framework.trait.torch_decorator] run function boomber:
 execute as @s[tag=boomber.framework.trait.furniture_table] run function boomber:framework/trait/furniture_table/fixed_update
 execute as @s[tag=boomber.framework.trait.doormat] run function boomber:framework/trait/doormat/fixed_update
 execute as @s[tag=boomber.framework.trait.fish_bowl] run function boomber:framework/trait/fish_bowl/fixed_update
-execute as @s[tag=boomber.framework.trait.conveyor_belt] run function boomber:framework/trait/conveyor_belt/fixed_update
+execute as @s[tag=boomber.framework.trait.gravestone] run function boomber:framework/trait/gravestone/fixed_update
