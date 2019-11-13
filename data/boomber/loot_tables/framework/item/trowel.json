@@ -23,6 +23,10 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{ucit: {framework: {inventory: []}, durability: 250, max_durability: 250, id: \"trowel\", from: \"boomber:framework\"}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080000}"
 						}
 					]
 				}
