@@ -1,0 +1,2 @@
+data modify entity @s ArmorItems[-1].tag.ucit.framework.draw_camera set from storage boomber:framework/furniture_table equality_test.tag.ucit.framework.expand
+function boomber:framework/trait/furniture_table/ui/event/interact/expand

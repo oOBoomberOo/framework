@@ -1,4 +1,5 @@
 #> Create `furniture_table` struct
+loot replace entity @s armor.head loot boomber:framework/trait/furniture_table
 setblock ~ ~ ~ minecraft:barrel[facing=up]{CustomName: '{"translate": "boomber.framework.block.furniture_table"}'} destroy
 scoreboard players set @s bb.fw.open 0
 scoreboard players set @s bb.fw.page 0

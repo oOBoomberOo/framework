@@ -1,0 +1,16 @@
+{
+  "name": "framework_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "del": "^5.1.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "boomber",
+  "license": "ISC"
+}

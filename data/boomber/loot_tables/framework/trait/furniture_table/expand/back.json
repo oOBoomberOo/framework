@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_stained_glass_pane",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {framework: {expand: 'boomber:framework/trait/furniture_table/furniture_list'}, id: 'furniture_expandable', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.ui.furniture_table.back",
+								"italic": false,
+								"color": "red"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+playsound minecraft:ui.button.click player @a[distance=..7]

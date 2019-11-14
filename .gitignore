@@ -1,2 +1,4 @@
 .datapack/
-generator/
+*.old.*
+generator/out
+generator/node_modules

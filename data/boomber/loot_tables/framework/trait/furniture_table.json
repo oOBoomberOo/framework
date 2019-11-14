@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080000, ucit: {framework: {draw_camera: 'boomber:framework/trait/furniture_table/furniture_list', selected_page: 0}, id: \"furniture_table\", from: \"boomber:framework\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

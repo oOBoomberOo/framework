@@ -1,0 +1,42 @@
+[
+	{
+		"trait": "doormat",
+		"block_model": 8080002,
+		"lookup": {
+			"name": "behind_or_current",
+			"target": "#boomber:framework/doormat/valid_block"
+		},
+		"list": [
+			{"name": "white_wool", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "orange_wool", "cost": [2, 1, 0, 1], "count": 1},
+			{"name": "magenta_wool", "cost": [1, 0, 1, 1], "count": 1},
+			{"name": "light_blue_wool", "cost": [0, 1, 1, 1], "count": 1},
+			{"name": "yellow_wool", "cost": [1, 1, 0, 1], "count": 1},
+			{"name": "lime_wool", "cost": [0, 1, 0, 1], "count": 1},
+			{"name": "pink_wool", "cost": [1, 0, 1, 1], "count": 1},
+			{"name": "gray_wool", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "light_gray_wool", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "cyan_wool", "cost": [0, 2, 1, 1], "count": 1},
+			{"name": "purple_wool", "cost": [1, 0, 2, 1], "count": 1},
+			{"name": "blue_wool", "cost": [0, 0, 1, 1], "count": 1},
+			{"name": "brown_wool", "cost": [1, 1, 0, 1], "count": 1},
+			{"name": "green_wool", "cost": [0, 1, 0, 1], "count": 1},
+			{"name": "red_wool", "cost": [1, 0, 0, 1], "count": 1},
+			{"name": "black_wool", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "creeper", "cost": [0, 3, 0, 1], "count": 1},
+			{"name": "megumin", "cost": [3, 1, 0, 1], "count": 1, "lore": [{"translate": "boomber.framework.block.doormat.megumin.description", "color": "gray"}]},
+			{"name": "chicken", "cost": [2, 2, 2, 1], "count": 1},
+			{"name": "tnt", "cost": [3, 0, 1, 1], "count": 1}
+		]
+	},
+	{
+		"trait": "gravestone",
+		"block_model": 8080023,
+		"list": [
+			{"name": "plate", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "cross", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "celtic", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "slanted", "cost": [1, 1, 1, 0], "count": 1}
+		]
+	}
+]

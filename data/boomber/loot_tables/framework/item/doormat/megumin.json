@@ -26,15 +26,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{EntityTag: {Tags: ['boomber.framework.block.doormat.megumin', 'boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block'], Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}}}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{
-									"translate": "boomber.framework.block.doormat.megumin.description",
-									"color": "gray"
-								}
-							]
 						}
 					]
 				}
