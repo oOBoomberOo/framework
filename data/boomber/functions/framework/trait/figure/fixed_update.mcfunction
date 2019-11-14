@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ minecraft:air run function boomber:framework/trait/figure/remove
