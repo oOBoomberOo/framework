@@ -3,4 +3,4 @@ execute if block ~ ~ ~ minecraft:barrel[open=false] if score @s bb.fw.open match
 
 execute store result score @s bb.fw.open if block ~ ~ ~ minecraft:barrel[open=true]
 
-execute unless block ~ ~ ~ minecraft:barrel run function boomber:framework/trait/drawer/remove
+execute unless block ~ ~ ~ #boomber:framework/drawer/valid_block run function boomber:framework/trait/drawer/remove
