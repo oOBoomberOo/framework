@@ -1,0 +1,1 @@
+tag @s add boomber.framework.trait.solid_block

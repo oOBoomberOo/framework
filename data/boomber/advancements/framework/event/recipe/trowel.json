@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"trowel": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "boomber:framework/trowel"
+			}
+		}
+	},
+	"parent": "boomber:framework/event/root",
+	"rewards": {
+		"function": "boomber:framework/event/recipe/trowel"
+	}
+}

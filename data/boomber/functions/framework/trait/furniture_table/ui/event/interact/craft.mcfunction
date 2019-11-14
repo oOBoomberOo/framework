@@ -1,0 +1,1 @@
+playsound minecraft:block.note_block.chime block @a[distance=..7]

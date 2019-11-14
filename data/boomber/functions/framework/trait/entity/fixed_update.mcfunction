@@ -7,3 +7,5 @@ execute as @s[tag=boomber.framework.trait.doormat] run function boomber:framewor
 execute as @s[tag=boomber.framework.trait.fish_bowl] run function boomber:framework/trait/fish_bowl/fixed_update
 execute as @s[tag=boomber.framework.trait.gravestone] run function boomber:framework/trait/gravestone/fixed_update
 execute as @s[tag=boomber.framework.trait.figure] run function boomber:framework/trait/figure/fixed_update
+execute as @s[tag=boomber.framework.trait.drawer] run function boomber:framework/trait/drawer/fixed_update
+execute as @s[tag=boomber.framework.trait.solid_block] run function boomber:framework/trait/solid_block/fixed_update
