@@ -495,6 +495,39 @@
 					}
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/closet/oak"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"bb.fw.red_dye": {
+							"min": 1,
+							"max": 1000
+						},
+						"bb.fw.green_dye": {
+							"min": 1,
+							"max": 1000
+						},
+						"bb.fw.blue_dye": {
+							"min": 1,
+							"max": 1000
+						},
+						"bb.fw.clay": {
+							"min": 1,
+							"max": 1000
+						}
+					}
+				}
+			]
 		}
 	]
 }
