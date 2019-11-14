@@ -1,0 +1,1 @@
+scoreboard players add #bb.fw.should_draw bb.success 1

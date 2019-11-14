@@ -22,4 +22,4 @@ execute as @a[distance=..7] run function boomber:framework/trait/furniture_table
 # Play a sound everytime there's a draw update
 # When testing you shouldn't hear this sound constantly
 # But rather only when you interact with the UI
-playsound minecraft:block.note_block.harp voice @a
+# playsound minecraft:block.note_block.harp voice @a

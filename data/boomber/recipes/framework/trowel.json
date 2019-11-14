@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"A  ",
+		" BB"
+	],
+	"key": {
+		"A": {
+			"tag": "boomber:framework/recipe/stick"
+		},
+		"B": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

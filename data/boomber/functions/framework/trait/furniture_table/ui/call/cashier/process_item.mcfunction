@@ -1,3 +1,4 @@
+function boomber:framework/trait/furniture_table/ui/event/interact/craft
 data modify storage boomber:framework/furniture_table/cashier input set from storage boomber:framework/furniture_table equality_test.tag
 
 execute positioned ~ 255 ~ run function boomber:framework/trait/entity/template/loot_table

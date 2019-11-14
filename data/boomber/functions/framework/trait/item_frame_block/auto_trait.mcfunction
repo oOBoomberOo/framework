@@ -26,3 +26,5 @@ execute if entity @s[tag=boomber.framework.block.gravestone.plate] run function 
 execute if entity @s[tag=boomber.framework.block.gravestone.cross] run function boomber:framework/trait/item_frame_block/block/gravestone/cross/run
 execute if entity @s[tag=boomber.framework.block.gravestone.celtic] run function boomber:framework/trait/item_frame_block/block/gravestone/celtic/run
 execute if entity @s[tag=boomber.framework.block.gravestone.slanted] run function boomber:framework/trait/item_frame_block/block/gravestone/slanted/run
+execute if entity @s[tag=boomber.framework.block.drawer.oak] run function boomber:framework/trait/item_frame_block/block/drawer/oak/run
+execute if entity @s[tag=boomber.framework.block.closet.oak] run function boomber:framework/trait/item_frame_block/block/closet/oak/run
