@@ -55,7 +55,6 @@ async function main(meta, kind) {
 
 async function item_handler(item, meta) {
 	const { furniture_table, target_trait } = meta;
-	console.log(furniture_table, target_trait);
 	const { name } = item;
 	await create_file(path.join(furniture_table, 'furniture', target_trait, `${name}.json`), ui_builder(item, meta))
 	await create_file(path.join(furniture_table, 'result', target_trait, `${name}.json`), {

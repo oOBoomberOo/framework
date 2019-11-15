@@ -20,6 +20,7 @@ execute if entity @s[tag=boomber.framework.block.doormat.brown_wool] run functio
 execute if entity @s[tag=boomber.framework.block.doormat.green_wool] run function boomber:framework/trait/item_frame_block/block/doormat/green_wool/run
 execute if entity @s[tag=boomber.framework.block.doormat.red_wool] run function boomber:framework/trait/item_frame_block/block/doormat/red_wool/run
 execute if entity @s[tag=boomber.framework.block.doormat.black_wool] run function boomber:framework/trait/item_frame_block/block/doormat/black_wool/run
+execute if entity @s[tag=boomber.framework.block.figure.megumin] run function boomber:framework/trait/item_frame_block/block/figure/megumin/run
 execute if entity @s[tag=boomber.framework.block.gravestone.plate] run function boomber:framework/trait/item_frame_block/block/gravestone/plate/run
 execute if entity @s[tag=boomber.framework.block.gravestone.cross] run function boomber:framework/trait/item_frame_block/block/gravestone/cross/run
 execute if entity @s[tag=boomber.framework.block.gravestone.celtic] run function boomber:framework/trait/item_frame_block/block/gravestone/celtic/run

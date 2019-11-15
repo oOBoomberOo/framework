@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Resourcepack Required",
+		"description": "If you see 'X symbol' then the resourcepack is not installed correctly",
+		"icon": {
+			"item": "minecraft:structure_void",
+			"nbt": "{CustomModelData: 8080027}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:framework/framework"
+}

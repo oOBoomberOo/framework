@@ -63,6 +63,13 @@
 		]
 	},
 	{
+		"trait": "figure",
+		"block_model": 8080027,
+		"list": [
+			{"name": "megumin", "cost": [10, 10, 10, 10], "count": 1}
+		]
+	},
+	{
 		"trait": "gravestone",
 		"block_model": 8080023,
 		"expandable": true,
@@ -77,6 +84,10 @@
 		"trait": "drawer",
 		"block_model": 8080028,
 		"expandable": true,
+		"lookup": {
+			"name": "behind",
+			"target": "#boomber:framework/drawer/valid_block"
+		},
 		"list": [
 			{"name": "oak", "cost": [1, 1, 1, 1], "count": 1}
 		]
