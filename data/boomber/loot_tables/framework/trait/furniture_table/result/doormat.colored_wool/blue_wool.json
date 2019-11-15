@@ -5,12 +5,12 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:white_carpet",
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/item/doormat/blue_wool",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": 4
+							"count": 1
 						}
 					]
 				}

@@ -5,29 +5,31 @@ const item_frame = require('./item_frame');
 const { promisify } = require('util');
 
 async function item_handler(item, meta) {
-	const { trait, furniture_table, model } = meta;
+	const { furniture_table, model, target_trait, kind: { trait } } = meta;
 	const { name } = item;
 
 	console.log(`${model}: ${trait}/${name}`);
 
 	item_frame(item, meta);
-	await create_file(path.join(furniture_table, 'furniture', trait, `${name}.json`), ui_builder(item, model, trait));
+	await create_file(path.join(furniture_table, 'furniture', target_trait, `${name}.json`), ui_builder(item, model, trait));
+	await create_file(path.join(furniture_table, 'result', target_trait, `${name}.json`), ui_result(item, meta));
 	await create_file(path.join(meta.item, trait, `${name}.json`), item_builder(item, model, meta));
 	return {
 		auto_trait: `execute if entity @s[tag=boomber.framework.block.${trait}.${name}] run function boomber:framework/trait/item_frame_block/block/${trait}/${name}/run`,
-		furniture_list: ui_preview(item, trait)
+		furniture_list: ui_preview(item, meta)
 	};
 }
 
-function ui_preview(item, trait) {
+function ui_preview(item, meta) {
 	const { name, cost } = item;
+	const { target_trait } = meta;
 	const [red, green, blue, clay] = cost;
 	return {
 		rolls: 1,
 		entries: [
 			{
 				type: "minecraft:loot_table",
-				name: `boomber:framework/trait/furniture_table/furniture/${trait}/${name}`
+				name: `boomber:framework/trait/furniture_table/furniture/${target_trait}/${name}`
 			}
 		],
 		conditions: [
@@ -78,10 +80,35 @@ function ui_builder(item, model, trait) {
 	return result;
 }
 
+function ui_result(item, meta) {
+	const { kind: {trait} } = meta;
+	const { name, count = 1 } = item;
+	return {
+		type: "minecraft:item",
+		pools: [
+			{
+				rolls: 1,
+				entries: [
+					{
+						type: "minecraft:loot_table",
+						name: `boomber:framework/item/${trait}/${name}`,
+						functions: [
+							{
+								function: "minecraft:set_count",
+								count: count
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+
 function item_builder(item, model, meta) {
 	const { name } = item;
-	const { trait } = meta;
-	const result = furniture_template(meta.type);
+	const { kind: { trait }, type } = meta;
+	const result = furniture_template(type);
 	const functions = result.pools[0].entries[0].functions;
 	functions.push({
 		function: "minecraft:set_name",

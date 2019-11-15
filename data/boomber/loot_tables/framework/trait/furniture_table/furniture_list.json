@@ -6,7 +6,34 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/trait/furniture_table/furniture/doormat"
+					"name": "boomber:framework/trait/furniture_table/furniture/vanilla.decoration"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/torch_decorator"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat.cosmetic"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/doormat.colored_wool"
 				}
 			]
 		},
@@ -16,6 +43,15 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "boomber:framework/trait/furniture_table/furniture/gravestone"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/drawer"
 				}
 			]
 		}

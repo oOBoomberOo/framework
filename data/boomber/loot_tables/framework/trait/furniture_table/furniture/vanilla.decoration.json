@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flower_pot",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {framework: {expand: 'boomber:framework/trait/furniture_table/expand/vanilla.decoration'}, id: 'furniture_expandable', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.trait.vanilla.decoration",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

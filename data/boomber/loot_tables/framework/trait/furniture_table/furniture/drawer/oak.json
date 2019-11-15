@@ -9,8 +9,15 @@
 					"name": "minecraft:item_frame",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": 1
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.block.drawer.oak",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080028, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/drawer/oak', red: 1, green: 1, blue: 1, clay: 1}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -18,8 +25,8 @@
 								[
 									{
 										"translate": "boomber.framework.ui.furniture_table.cost.red",
-										"color": "red",
-										"italic": false
+										"italic": false,
+										"color": "red"
 									},
 									{
 										"text": ": ",
@@ -27,15 +34,14 @@
 									},
 									{
 										"text": "1",
-										"color": "white",
-										"italic": false
+										"color": "white"
 									}
 								],
 								[
 									{
 										"translate": "boomber.framework.ui.furniture_table.cost.green",
-										"color": "green",
-										"italic": false
+										"italic": false,
+										"color": "green"
 									},
 									{
 										"text": ": ",
@@ -43,15 +49,14 @@
 									},
 									{
 										"text": "1",
-										"color": "white",
-										"italic": false
+										"color": "white"
 									}
 								],
 								[
 									{
 										"translate": "boomber.framework.ui.furniture_table.cost.blue",
-										"color": "blue",
-										"italic": false
+										"italic": false,
+										"color": "blue"
 									},
 									{
 										"text": ": ",
@@ -59,42 +64,25 @@
 									},
 									{
 										"text": "1",
-										"color": "white",
-										"italic": false
+										"color": "white"
 									}
 								],
 								[
 									{
 										"translate": "boomber.framework.ui.furniture_table.cost.clay",
-										"color": "gray",
-										"italic": false
+										"italic": false,
+										"color": "gray"
 									},
 									{
 										"text": ": ",
 										"color": "gray"
 									},
 									{
-										"text": "3",
-										"color": "white",
-										"italic": false
+										"text": "1",
+										"color": "white"
 									}
 								]
 							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/drawer/oak', red: 1, green: 1, blue: 1, clay: 3}, id: 'furniture_selection', from: 'boomber:framework', group: ['furniture_table/ui']}}"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080028}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "boomber.framework.block.drawer.oak",
-								"italic": false
-							}
 						}
 					]
 				}

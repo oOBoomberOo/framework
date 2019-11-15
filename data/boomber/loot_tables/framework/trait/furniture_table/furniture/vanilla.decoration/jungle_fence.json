@@ -1,0 +1,74 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jungle_fence",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/vanilla.decoration/jungle_fence', red: 2, green: 2, blue: 0, clay: 4}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 3
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.red",
+										"italic": false,
+										"color": "red"
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "2",
+										"color": "white"
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.green",
+										"italic": false,
+										"color": "green"
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "2",
+										"color": "white"
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.clay",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "4",
+										"color": "white"
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

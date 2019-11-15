@@ -1,7 +1,44 @@
 [
 	{
+		"trait": "vanilla",
+		"expandable": true,
+		"initial": "decoration",
+		"list": [
+			{"id": "minecraft:flower_pot", "cost": [0, 0, 0, 1], "count": 1},
+			{"id": "minecraft:oak_fence", "cost": [2, 2, 0, 4], "count": 3},
+			{"id": "minecraft:spruce_fence", "cost": [2, 2, 0, 4], "count": 3},
+			{"id": "minecraft:birch_fence", "cost": [2, 2, 1, 4], "count": 3},
+			{"id": "minecraft:jungle_fence", "cost": [2, 2, 0, 4], "count": 3},
+			{"id": "minecraft:acacia_fence", "cost": [2, 2, 0, 4], "count": 3},
+			{"id": "minecraft:dark_oak_fence", "cost": [2, 2, 2, 4], "count": 3}
+		]
+	},
+	{
+		"trait": "torch_decorator",
+		"block_model": 8080001,
+		"step": 2,
+		"expandable": true,
+		"list": [
+			{"name": "candle", "cost": [1, 1, 1, 1], "count": 4}
+		]
+	},
+	{
+		"trait": "doormat",
+		"block_model": 8080018,
+		"expandable": true,
+		"initial": "cosmetic",
+		"list": [
+			{"name": "creeper", "cost": [0, 3, 0, 1], "count": 1},
+			{"name": "megumin", "cost": [3, 1, 0, 1], "count": 1, "lore": [{"translate": "boomber.framework.block.doormat.megumin.description", "color": "gray"}]},
+			{"name": "chicken", "cost": [2, 2, 2, 1], "count": 1},
+			{"name": "tnt", "cost": [3, 0, 1, 1], "count": 1}
+		]
+	},
+	{
 		"trait": "doormat",
 		"block_model": 8080002,
+		"expandable": true,
+		"initial": "colored_wool",
 		"lookup": {
 			"name": "behind_or_current",
 			"target": "#boomber:framework/doormat/valid_block"
@@ -22,21 +59,26 @@
 			{"name": "brown_wool", "cost": [1, 1, 0, 1], "count": 1},
 			{"name": "green_wool", "cost": [0, 1, 0, 1], "count": 1},
 			{"name": "red_wool", "cost": [1, 0, 0, 1], "count": 1},
-			{"name": "black_wool", "cost": [1, 1, 1, 1], "count": 1},
-			{"name": "creeper", "cost": [0, 3, 0, 1], "count": 1},
-			{"name": "megumin", "cost": [3, 1, 0, 1], "count": 1, "lore": [{"translate": "boomber.framework.block.doormat.megumin.description", "color": "gray"}]},
-			{"name": "chicken", "cost": [2, 2, 2, 1], "count": 1},
-			{"name": "tnt", "cost": [3, 0, 1, 1], "count": 1}
+			{"name": "black_wool", "cost": [1, 1, 1, 1], "count": 1}
 		]
 	},
 	{
 		"trait": "gravestone",
 		"block_model": 8080023,
+		"expandable": true,
 		"list": [
 			{"name": "plate", "cost": [1, 1, 1, 0], "count": 1},
 			{"name": "cross", "cost": [1, 1, 1, 0], "count": 1},
 			{"name": "celtic", "cost": [1, 1, 1, 0], "count": 1},
 			{"name": "slanted", "cost": [1, 1, 1, 0], "count": 1}
+		]
+	},
+	{
+		"trait": "drawer",
+		"block_model": 8080028,
+		"expandable": true,
+		"list": [
+			{"name": "oak", "cost": [1, 1, 1, 1], "count": 1}
 		]
 	}
 ]

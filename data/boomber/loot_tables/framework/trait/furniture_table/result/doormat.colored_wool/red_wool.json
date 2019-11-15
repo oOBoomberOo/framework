@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "boomber:framework/item/closet/oak",
+					"name": "boomber:framework/item/doormat/red_wool",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

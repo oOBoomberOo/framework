@@ -5,12 +5,12 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"name": "boomber:framework/item/fish_bowl/small_empty",
+					"type": "minecraft:item",
+					"name": "minecraft:acacia_fence",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": 1
+							"count": 3
 						}
 					]
 				}

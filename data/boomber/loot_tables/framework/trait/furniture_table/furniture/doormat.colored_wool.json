@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080002,ucit: {framework: {expand: 'boomber:framework/trait/furniture_table/expand/doormat.colored_wool'}, id: 'furniture_expandable', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.trait.doormat.colored_wool",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

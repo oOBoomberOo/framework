@@ -16,8 +16,6 @@
 		"minecraft:green_stained_glass_pane",
 		"minecraft:red_stained_glass_pane",
 		"minecraft:black_stained_glass_pane",
-		"minecraft:item_frame",
-		"minecraft:chest",
-		"minecraft:flower_pot"
+		"#boomber:framework/furniture_table/furniture_list"
 	]
 }

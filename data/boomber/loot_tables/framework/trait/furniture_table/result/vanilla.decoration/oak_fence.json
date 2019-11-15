@@ -5,12 +5,12 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"name": "boomber:framework/item/figure/megumin",
+					"type": "minecraft:item",
+					"name": "minecraft:oak_fence",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": 1
+							"count": 3
 						}
 					]
 				}

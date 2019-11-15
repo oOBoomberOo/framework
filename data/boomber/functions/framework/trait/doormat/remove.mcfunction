@@ -15,8 +15,4 @@ execute if entity @s[tag=boomber.framework.block.doormat.brown_wool] run loot sp
 execute if entity @s[tag=boomber.framework.block.doormat.green_wool] run loot spawn ~ ~ ~ loot boomber:framework/item/doormat/green_wool
 execute if entity @s[tag=boomber.framework.block.doormat.red_wool] run loot spawn ~ ~ ~ loot boomber:framework/item/doormat/red_wool
 execute if entity @s[tag=boomber.framework.block.doormat.black_wool] run loot spawn ~ ~ ~ loot boomber:framework/item/doormat/black_wool
-execute if entity @s[tag=boomber.framework.block.doormat.creeper] run loot spawn ~ ~ ~ loot boomber:framework/item/doormat/creeper
-execute if entity @s[tag=boomber.framework.block.doormat.megumin] run loot spawn ~ ~ ~ loot boomber:framework/item/doormat/megumin
-execute if entity @s[tag=boomber.framework.block.doormat.chicken] run loot spawn ~ ~ ~ loot boomber:framework/item/doormat/chicken
-execute if entity @s[tag=boomber.framework.block.doormat.tnt] run loot spawn ~ ~ ~ loot boomber:framework/item/doormat/tnt
 kill @s

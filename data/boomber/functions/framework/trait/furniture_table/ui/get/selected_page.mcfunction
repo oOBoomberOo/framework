@@ -1,0 +1,1 @@
+execute store result score #bb.fw.page bb.calculation run data get entity @s ArmorItems[-1].tag.ucit.framework.selected_page

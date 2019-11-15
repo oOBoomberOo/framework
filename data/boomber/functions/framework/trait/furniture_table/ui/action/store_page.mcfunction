@@ -1,0 +1,1 @@
+execute store result entity @s ArmorItems[-1].tag.ucit.framework.selected_page int 1 run scoreboard players get #bb.fw.input.page bb.variable

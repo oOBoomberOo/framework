@@ -4,7 +4,7 @@ const path = require('path');
 const { promisify } = require('util');
 
 async function main(item, meta) {
-	const { trait, item_frame_block } = meta;
+	const { kind: { trait }, item_frame_block } = meta;
 	const { name } = item;
 	await create_file(path.join(item_frame_block, 'block', trait, name, 'run.mcfunction'), run(item, meta));
 	await create_file(path.join(item_frame_block, 'block', trait, name, 'fail.mcfunction'), fail(item, meta));
@@ -13,7 +13,7 @@ async function main(item, meta) {
 }
 
 function run(item, meta) {
-	const { trait } = meta;
+	const { kind: { trait } } = meta;
 	const { name, lookup } = item;
 
 	if (lookup) {
