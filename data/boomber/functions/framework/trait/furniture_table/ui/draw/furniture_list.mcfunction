@@ -15,7 +15,7 @@ scoreboard players operation #bb.fw.green_dye bb.calculation = @s bb.fw.green_dy
 scoreboard players operation #bb.fw.blue_dye bb.calculation = @s bb.fw.blue_dye
 scoreboard players operation #bb.fw.clay bb.calculation = @s bb.fw.clay
 execute positioned ~ 255 ~ run function boomber:framework/trait/entity/template/loot_table
-execute as @e[type=minecraft:husk, tag=boomber.framework.template] run function boomber:framework/trait/furniture_table/ui/call/furniture_machine
+execute as @e[type=minecraft:husk, tag=boomber.framework.template] at @s run function boomber:framework/trait/furniture_table/ui/call/furniture_machine
 
 #> Select every items that dropped from command above all at once and map it into usable data
 execute as @e[type=minecraft:item, nbt={Item: {tag: {ucit: {group: ["furniture_table/selection"], from: "boomber:framework"}}}}] run function boomber:framework/trait/furniture_table/ui/get/furniture_selection

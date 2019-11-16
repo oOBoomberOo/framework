@@ -11,21 +11,21 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "boomber.framework.block.closet.oak",
+								"translate": "boomber.framework.block.drawer.jungle",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit: {id: \"closet.oak\", from: \"boomber:framework\", group: [\"item_frame_block\"]}}"
+							"tag": "{ucit: {id: \"drawer.jungle\", from: \"boomber:framework\", group: [\"item_frame_block\"]}}"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 0}"
+							"tag": "{CustomModelData: 8080031}"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{EntityTag: {Tags: ['boomber.framework.block.closet.oak', 'boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block'], Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}}}"
+							"tag": "{EntityTag: {Tags: ['boomber.framework.block.drawer.jungle', 'boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block'], Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}}}"
 						}
 					]
 				}

@@ -5,15 +5,15 @@ const item_frame = require('./item_frame');
 const { promisify } = require('util');
 
 async function item_handler(item, meta) {
-	const { furniture_table, model, target_trait, kind: { trait } } = meta;
+	const { furniture_table, model: { block_model, item_model }, target_trait, kind: { trait } } = meta;
 	const { name } = item;
 
-	console.log(`${model}: ${trait}/${name}`);
+	console.log(`${block_model}: ${trait}/${name}`);
 
 	item_frame(item, meta);
-	await create_file(path.join(furniture_table, 'furniture', target_trait, `${name}.json`), ui_builder(item, model, trait));
+	await create_file(path.join(furniture_table, 'furniture', target_trait, `${name}.json`), ui_builder(item, item_model, trait));
 	await create_file(path.join(furniture_table, 'result', target_trait, `${name}.json`), ui_result(item, meta));
-	await create_file(path.join(meta.item, trait, `${name}.json`), item_builder(item, model, meta));
+	await create_file(path.join(meta.item, trait, `${name}.json`), item_builder(item, item_model, meta));
 	return {
 		auto_trait: `execute if entity @s[tag=boomber.framework.block.${trait}.${name}] run function boomber:framework/trait/item_frame_block/block/${trait}/${name}/run`,
 		furniture_list: ui_preview(item, meta)

@@ -45,10 +45,10 @@ async function furniture(meta, kind) {
 	const target_trait = expandable && initial ? `${trait}.${initial}`: trait;
 
 	const promises = [];
-	for (const index in list) {
+	for (let index = 0; index < list.length; index++) {
 		const item = list[index];
 		const model_offset = index * step;
-		const model = item_model + model_offset;
+		const model = { item_model: item_model + index, block_model: block_model + model_offset };
 		const promise = item_handler(item, {...meta, kind, target_trait, model, model_offset});
 		promises.push(promise);
 	}

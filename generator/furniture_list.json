@@ -82,14 +82,52 @@
 	},
 	{
 		"trait": "drawer",
+		"extra_traits": ["solid_block"],
 		"block_model": 8080028,
 		"expandable": true,
 		"lookup": {
 			"name": "behind",
 			"target": "#boomber:framework/drawer/valid_block"
 		},
+		"step": 2,
 		"list": [
-			{"name": "oak", "cost": [1, 1, 1, 1], "count": 1}
+			{"name": "oak", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "spruce", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "birch", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "jungle", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "acacia", "cost": [1, 1, 1, 1], "count": 1},
+			{"name": "dark_oak", "cost": [1, 1, 1, 1], "count": 1}
+		]
+	},
+	{
+		"trait": "wardrobe",
+		"extra_traits": ["solid_block"],
+		"block_model": 8080040,
+		"item_model": 8080034,
+		"step": 2,
+		"expandable": true,
+		"lookup": {
+			"name": "behind",
+			"target": "#boomber:framework/wardrobe/valid_block"
+		},
+		"list": [
+			{"name": "1", "cost": [1, 1, 1, 1], "count": 1}
+		]
+	},
+	{
+		"trait": "fridge",
+		"extra_traits": ["solid_block"],
+		"block_model": 8080041,
+		"item_model": 8080035,
+		"step": 2,
+		"expandable": true,
+		"lookup": {
+			"name": "behind",
+			"target": "#boomber:framework/fridge/valid_block"
+		},
+		"list": [
+			{"name": "quartz", "cost": [3, 3, 3, 5], "count": 1},
+			{"name": "black", "cost": [2, 2, 2, 5], "count": 1}
 		]
 	}
 ]

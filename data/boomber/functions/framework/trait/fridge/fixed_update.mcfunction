@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #boomber:framework/fridge/valid_block run function boomber:framework/trait/fridge/remove

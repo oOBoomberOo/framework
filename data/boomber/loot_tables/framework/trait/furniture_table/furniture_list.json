@@ -87,6 +87,24 @@
 					"name": "boomber:framework/trait/furniture_table/furniture/drawer"
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/wardrobe"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/fridge"
+				}
+			]
 		}
 	]
 }

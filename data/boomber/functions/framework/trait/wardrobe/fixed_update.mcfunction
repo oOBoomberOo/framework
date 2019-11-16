@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #boomber:framework/wardrobe/valid_block run function boomber:framework/trait/wardrobe/remove

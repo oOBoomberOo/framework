@@ -8,5 +8,6 @@ execute as @s[tag=boomber.framework.trait.fish_bowl] run function boomber:framew
 execute as @s[tag=boomber.framework.trait.gravestone] run function boomber:framework/trait/gravestone/fixed_update
 execute as @s[tag=boomber.framework.trait.figure] run function boomber:framework/trait/figure/fixed_update
 execute as @s[tag=boomber.framework.trait.drawer] run function boomber:framework/trait/drawer/fixed_update
-execute as @s[tag=boomber.framework.trait.closet] run function boomber:framework/trait/closet/fixed_update
+execute as @s[tag=boomber.framework.trait.wardrobe] run function boomber:framework/trait/wardrobe/fixed_update
+execute as @s[tag=boomber.framework.trait.fridge] run function boomber:framework/trait/fridge/fixed_update
 execute as @s[tag=boomber.framework.trait.solid_block] run function boomber:framework/trait/solid_block/fixed_update
