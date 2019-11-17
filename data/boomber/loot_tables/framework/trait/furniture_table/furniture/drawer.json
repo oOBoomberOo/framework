@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080028,ucit: {framework: {expand: 'boomber:framework/trait/furniture_table/expand/drawer'}, id: 'furniture_expandable', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+							"tag": "{CustomModelData: 8080032,ucit: {framework: {expand: 'boomber:framework/trait/furniture_table/expand/drawer'}, id: 'furniture_expandable', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
 						},
 						{
 							"function": "minecraft:set_name",

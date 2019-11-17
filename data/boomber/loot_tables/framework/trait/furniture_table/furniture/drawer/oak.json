@@ -17,7 +17,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080028, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/drawer/oak', red: 1, green: 1, blue: 1, clay: 1}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+							"tag": "{CustomModelData: 8080032, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/drawer/oak', red: 1, green: 1, blue: 1, clay: 1}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
 						},
 						{
 							"function": "minecraft:set_lore",

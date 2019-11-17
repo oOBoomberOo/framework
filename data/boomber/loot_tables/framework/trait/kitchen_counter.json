@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080050, ucit: {id: \"kitchen_counter\", from: \"boomber:framework\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

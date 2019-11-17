@@ -64,7 +64,7 @@
 	},
 	{
 		"trait": "figure",
-		"block_model": 8080027,
+		"block_model": 8080032,
 		"list": [
 			{"name": "megumin", "cost": [10, 10, 10, 10], "count": 1}
 		]
@@ -74,16 +74,20 @@
 		"block_model": 8080023,
 		"expandable": true,
 		"list": [
-			{"name": "plate", "cost": [1, 1, 1, 0], "count": 1},
-			{"name": "cross", "cost": [1, 1, 1, 0], "count": 1},
-			{"name": "celtic", "cost": [1, 1, 1, 0], "count": 1},
-			{"name": "slanted", "cost": [1, 1, 1, 0], "count": 1}
+			{"name": "plate.stone", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "plate.overgrown_stone", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "cross.stone", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "cross.overgrown_stone", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "cross.wood", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "cross.overgrown_wood", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "celtic.stone", "cost": [1, 1, 1, 0], "count": 1},
+			{"name": "celtic.overgrown_stone", "cost": [1, 1, 1, 0], "count": 1}
 		]
 	},
 	{
 		"trait": "drawer",
 		"extra_traits": ["solid_block"],
-		"block_model": 8080028,
+		"block_model": 8080032,
 		"expandable": true,
 		"lookup": {
 			"name": "behind",
@@ -102,8 +106,8 @@
 	{
 		"trait": "wardrobe",
 		"extra_traits": ["solid_block"],
-		"block_model": 8080040,
-		"item_model": 8080034,
+		"block_model": 8080045,
+		"item_model": 8080038,
 		"step": 2,
 		"expandable": true,
 		"lookup": {
@@ -117,8 +121,8 @@
 	{
 		"trait": "fridge",
 		"extra_traits": ["solid_block"],
-		"block_model": 8080041,
-		"item_model": 8080035,
+		"block_model": 8080046,
+		"item_model": 8080039,
 		"step": 2,
 		"expandable": true,
 		"lookup": {
@@ -128,6 +132,20 @@
 		"list": [
 			{"name": "quartz", "cost": [3, 3, 3, 5], "count": 1},
 			{"name": "black", "cost": [2, 2, 2, 5], "count": 1}
+		]
+	},
+	{
+		"trait": "kitchen_counter",
+		"extra_traits": ["solid_block"],
+		"block_model": 8080050,
+		"item_model": 8080041,
+		"step": 5,
+		"expandable": true,
+		"lookup": {
+			"name": "behind_no_checking"
+		},
+		"list": [
+			{"name": "modern", "cost": [1, 1, 1, 3], "count": 1}
 		]
 	}
 ]

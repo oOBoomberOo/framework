@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.block.gravestone.overgrown_stone_cross",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit: {id: \"gravestone.overgrown_stone_cross\", from: \"boomber:framework\", group: [\"item_frame_block\"]}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080026}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{EntityTag: {Tags: ['boomber.framework.block.gravestone.overgrown_stone_cross', 'boomber.framework.trait.entity', 'boomber.framework.trait.item_frame_block'], Invulnerable: 1b, Item: {id: \"minecraft:stone\", Count: 1b}}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -17,7 +17,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080027, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/figure/megumin', red: 10, green: 10, blue: 10, clay: 10}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+							"tag": "{CustomModelData: 8080032, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/figure/megumin', red: 10, green: 10, blue: 10, clay: 10}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
 						},
 						{
 							"function": "minecraft:set_lore",

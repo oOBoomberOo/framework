@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "boomber.framework.block.kitchen_counter.modern",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080041, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/kitchen_counter/modern', red: 1, green: 1, blue: 1, clay: 3}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.red",
+										"italic": false,
+										"color": "red"
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "1",
+										"color": "white"
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.green",
+										"italic": false,
+										"color": "green"
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "1",
+										"color": "white"
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.blue",
+										"italic": false,
+										"color": "blue"
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "1",
+										"color": "white"
+									}
+								],
+								[
+									{
+										"translate": "boomber.framework.ui.furniture_table.cost.clay",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"text": ": ",
+										"color": "gray"
+									},
+									{
+										"text": "3",
+										"color": "white"
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

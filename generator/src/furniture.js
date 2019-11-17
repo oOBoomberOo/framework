@@ -40,8 +40,8 @@ async function main(furniture_file, output) {
 }
 
 async function furniture(meta, kind) {
-	const { furniture_table, functions } = meta;
-	const { trait, block_model, item_model = block_model, list, step = 1, expandable = false, initial } = kind;
+	const { furniture_table, framework, functions } = meta;
+	const { trait, block_model, item_model = block_model, list, step = 1, expandable = false, initial, item = 'minecraft:structure_void' } = kind;
 	const target_trait = expandable && initial ? `${trait}.${initial}`: trait;
 
 	const promises = [];
@@ -60,6 +60,27 @@ async function furniture(meta, kind) {
 	]);
 
 	const item_list = await Promise.all(promises);
+
+	create_file(path.join(framework, 'trait', `${trait}.json`), {
+		"type": "minecraft:item",
+		"pools": [
+			{
+				"rolls": 1,
+				"entries": [
+					{
+						"type": "minecraft:item",
+						"name": item,
+						"functions": [
+							{
+								"function": "minecraft:set_nbt",
+								"tag": `{CustomModelData: ${block_model}, ucit: {id: "${trait}", from: "boomber:framework"}}`
+							}
+						]
+					}
+				]
+			}
+		]
+	});
 
 	if (expandable) {
 		
