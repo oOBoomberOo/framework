@@ -28,6 +28,10 @@
 		"offset": 16,
 		"expandable": true,
 		"initial": "cosmetic",
+		"lookup": {
+			"name": "behind_or_current",
+			"target": "#boomber:framework/doormat/valid_block"
+		},
 		"list": [
 			{"name": "creeper", "cost": [0, 3, 0, 1], "count": 1},
 			{"name": "megumin", "cost": [3, 1, 0, 1], "count": 1, "lore": [{"translate": "boomber.framework.block.doormat.megumin.description", "color": "gray"}]},
@@ -65,7 +69,7 @@
 	},
 	{
 		"trait": "figure",
-		"block_model": 8080032,
+		"block_model": 8080031,
 		"list": [
 			{"name": "megumin", "cost": [10, 10, 10, 10], "count": 1}
 		]

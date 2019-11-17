@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080032, ucit: {id: \"figure\", from: \"boomber:framework\"}}"
+							"tag": "{CustomModelData: 8080031, ucit: {id: \"figure\", from: \"boomber:framework\"}}"
 						}
 					]
 				}
