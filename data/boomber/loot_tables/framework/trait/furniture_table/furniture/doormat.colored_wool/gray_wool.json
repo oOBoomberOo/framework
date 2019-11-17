@@ -17,7 +17,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080009, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/gray_wool', red: 1, green: 1, blue: 1, clay: 1}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+							"tag": "{CustomModelData: 8080009, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat.colored_wool/gray_wool', red: 1, green: 1, blue: 1, clay: 1}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
 						},
 						{
 							"function": "minecraft:set_lore",

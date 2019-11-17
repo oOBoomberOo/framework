@@ -11,7 +11,7 @@ async function item_handler(item, meta) {
 	console.log(`${block_model}: ${trait}/${name}`);
 
 	item_frame(item, meta);
-	await create_file(path.join(furniture_table, 'furniture', target_trait, `${name}.json`), ui_builder(item, item_model, trait));
+	await create_file(path.join(furniture_table, 'furniture', target_trait, `${name}.json`), ui_builder(item, meta));
 	await create_file(path.join(furniture_table, 'result', target_trait, `${name}.json`), ui_result(item, meta));
 	await create_file(path.join(meta.item, trait, `${name}.json`), item_builder(item, item_model, meta));
 	return {
@@ -59,7 +59,8 @@ function ui_preview(item, meta) {
 	}
 }
 
-function ui_builder(item, model, trait) {
+function ui_builder(item, meta) {
+	const { target_trait, model: { item_model }, kind: { trait }} = meta;
 	const { name, cost } = item;
 	const [red, green, blue, clay] = cost;
 	const result = furniture_template(item.item);
@@ -70,7 +71,7 @@ function ui_builder(item, model, trait) {
 	});
 	functions.push({
 		function: "minecraft:set_nbt",
-		tag: `{CustomModelData: ${model}, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/${trait}/${name}', red: ${red}, green: ${green}, blue: ${blue}, clay: ${clay}}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}`
+		tag: `{CustomModelData: ${item_model}, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/${target_trait}/${name}', red: ${red}, green: ${green}, blue: ${blue}, clay: ${clay}}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}`
 	});
 
 	if (red || green || blue || clay) {

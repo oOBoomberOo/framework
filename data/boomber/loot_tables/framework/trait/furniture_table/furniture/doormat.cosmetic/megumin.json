@@ -17,7 +17,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8080019, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat/megumin', red: 3, green: 1, blue: 0, clay: 1}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
+							"tag": "{CustomModelData: 8080019, ucit: {framework: {item: 'boomber:framework/trait/furniture_table/result/doormat.cosmetic/megumin', red: 3, green: 1, blue: 0, clay: 1}, id: 'furniture_item', from: 'boomber:framework', group: ['furniture_table/ui', 'furniture_table/selection']}}"
 						},
 						{
 							"function": "minecraft:set_lore",

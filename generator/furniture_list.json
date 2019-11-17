@@ -24,7 +24,8 @@
 	},
 	{
 		"trait": "doormat",
-		"block_model": 8080018,
+		"block_model": 8080002,
+		"offset": 16,
 		"expandable": true,
 		"initial": "cosmetic",
 		"list": [

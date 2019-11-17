@@ -42,13 +42,17 @@ async function main(meta, kind) {
 						name: `boomber:framework/trait/furniture_table/furniture/${target_trait}`
 					}
 				]
-			}
+			},
+			trait,
+			list
 		};
 	}
 	else {
 		return {
 			auto_trait: null,
 			furniture_list: item_list,
+			trait,
+			list
 		}
 	}
 }
