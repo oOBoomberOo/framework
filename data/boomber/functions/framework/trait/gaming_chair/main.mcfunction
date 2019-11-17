@@ -1,0 +1,1 @@
+execute positioned ~ ~-0.6 ~ if entity @a[tag=boomber.framework.trait.gaming_chair.sitter, distance=..0.3] run function boomber:framework/trait/gaming_chair/looking_at

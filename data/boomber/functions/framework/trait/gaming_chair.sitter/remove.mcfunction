@@ -1,0 +1,1 @@
+tag @s remove boomber.framework.trait.gaming_chair.sitter

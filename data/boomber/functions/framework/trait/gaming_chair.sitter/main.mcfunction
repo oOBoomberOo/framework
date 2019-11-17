@@ -1,0 +1,1 @@
+execute unless entity @s[nbt={RootVehicle: {Entity: {Tags: ['boomber.framework.trait.gaming_chair.component']}}}] run function boomber:framework/trait/gaming_chair.sitter/remove

@@ -152,5 +152,16 @@
 		"list": [
 			{"name": "modern", "cost": [1, 1, 1, 3], "count": 1}
 		]
+	},
+	{
+		"trait": "chair",
+		"extra_traits": ["gaming_chair"],
+		"block_model": 8080056,
+		"item_model": 8080042,
+		"expandable": true,
+		"step": 2,
+		"list": [
+			{"name": "gaming_chair", "cost": [0, 0, 0, 1], "count": 1}
+		]
 	}
 ]

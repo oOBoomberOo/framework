@@ -114,6 +114,15 @@
 					"name": "boomber:framework/trait/furniture_table/furniture/kitchen_counter"
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:framework/trait/furniture_table/furniture/chair"
+				}
+			]
 		}
 	]
 }

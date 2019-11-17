@@ -39,3 +39,4 @@ execute if entity @s[tag=boomber.framework.block.wardrobe.1] run function boombe
 execute if entity @s[tag=boomber.framework.block.fridge.quartz] run function boomber:framework/trait/item_frame_block/block/fridge/quartz/run
 execute if entity @s[tag=boomber.framework.block.fridge.black] run function boomber:framework/trait/item_frame_block/block/fridge/black/run
 execute if entity @s[tag=boomber.framework.block.kitchen_counter.modern] run function boomber:framework/trait/item_frame_block/block/kitchen_counter/modern/run
+execute if entity @s[tag=boomber.framework.block.chair.gaming_chair] run function boomber:framework/trait/item_frame_block/block/chair/gaming_chair/run

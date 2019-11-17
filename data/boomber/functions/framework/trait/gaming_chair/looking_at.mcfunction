@@ -1,0 +1,2 @@
+data modify entity @s Pose.Head[1] set from entity @p[tag=boomber.framework.trait.gaming_chair.sitter] Rotation[0]
+data modify entity @e[type=minecraft:pig, tag=boomber.framework.trait.gaming_chair.component, limit=1] Rotation[0] set from entity @p[tag=boomber.framework.trait.gaming_chair.sitter] Rotation[0]
