@@ -10,3 +10,6 @@ scoreboard objectives remove bb.fw.red_dye
 scoreboard objectives remove bb.fw.green_dye
 scoreboard objectives remove bb.fw.blue_dye
 scoreboard objectives remove bb.fw.clay
+
+scoreboard objectives remove bb.fw.uid
+scoreboard objectives remove bb.fw.pc.mode

@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ #boomber:framework/pencil/passthrough run function boomber:framework/trait/pencil/place/hit
+execute as @s[distance=..5.5] if score #bb.fw.raycast bb.success matches 0 positioned ^ ^ ^0.1 run function boomber:framework/trait/pencil/place/raycast

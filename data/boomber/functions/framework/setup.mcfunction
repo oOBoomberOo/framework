@@ -13,6 +13,9 @@ scoreboard objectives add bb.fw.blue_dye dummy
 scoreboard objectives add bb.fw.clay dummy
 scoreboard objectives add bb.fw.range dummy
 
+scoreboard objectives add bb.fw.uid dummy
+scoreboard objectives add bb.fw.pc.mode dummy
+
 scoreboard objectives add bb.fw.interact minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard players set #4 bb.variable 4
@@ -23,6 +26,10 @@ scoreboard players set #90 bb.variable 90
 scoreboard players set #100 bb.variable 100
 
 function boomber:framework/config
+
+#define entity #bb.fw.current_uid
+
+execute unless score #bb.fw.current_uid bb.fw.uid matches -2147483648..2147483647 run scoreboard players set #bb.fw.current_uid bb.fw.uid 0
 
 scoreboard players operation #bb.fw.page_size bb.config = #bb.fw.row bb.config
 scoreboard players operation #bb.fw.page_size bb.config *= #bb.fw.col bb.config

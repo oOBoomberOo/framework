@@ -1,0 +1,1 @@
+execute if score @s bb.fw.pc.mode matches 0 run function boomber:framework/trait/pencil.marker/mode/circle/main
